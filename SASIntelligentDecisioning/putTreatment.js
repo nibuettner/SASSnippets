@@ -1,4 +1,5 @@
-﻿token = "";
+﻿// based on jquery-3.2.1.min.js
+token = "";
 
 function getToken(_callback) {
   // url used to get token

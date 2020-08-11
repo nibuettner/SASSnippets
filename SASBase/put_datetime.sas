@@ -1,0 +1,1 @@
+﻿%put time: %trim(%sysfunc(date(), DATE9.)):%trim(%sysfunc(time(), TIME12.));

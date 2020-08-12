@@ -109,7 +109,7 @@ function init() {
 
   getToken(function() {
     getHeader(function() {
-      getTreatment();
+      //getTreatment();
       putTreatment();
     });
   });

@@ -57,6 +57,7 @@ function getHeader(_callback) {
       console.log("HEAD SUCCESS");
       console.log(response);
       console.log(xhr.getAllResponseHeaders());
+      console.log(xhr.getResponseHeader("ETag"));
       _callback();
     },
     error: function(response) {
@@ -66,6 +67,7 @@ function getHeader(_callback) {
     complete: function(xhr, status) {
       console.log("HEAD COMPLETE");
       console.log(xhr.getAllResponseHeaders());
+      console.log(xhr.getResponseHeader("ETag"));
     }
   });
 }

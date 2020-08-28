@@ -1,0 +1,1 @@
+wget --no-check-certificate -r 'https://drive.google.com/uc?export=download&id=FILEID' -O FILENAME
